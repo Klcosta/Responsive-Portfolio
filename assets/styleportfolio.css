@@ -1,0 +1,28 @@
+table{
+    margin: auto;
+}
+
+.imgport{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+@media screen and (max-width: 980px) {
+
+    .imgport{
+        width: 175px;
+        height: 175px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .imgport{
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+
+}

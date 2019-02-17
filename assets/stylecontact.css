@@ -1,0 +1,63 @@
+#email{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+#message{
+    width: 100%;
+    height: 200px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+#name{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+form{
+    width: 860px;
+    margin: auto;
+}
+
+label{
+    font-family: 'Helvetica Neue';
+    color: #777777;
+    padding-left: 0 px;
+}
+
+.submit{
+    background-color: #4aaaa5;
+    padding: 10px;
+    font-family: 'Helvetica Neue';
+    color: white;
+    margin-left:10px;
+    width:68px;
+    border-radius: 8px;
+}
+
+.submit:hover {
+    background-color: #777777;
+}
+
+@media screen and (max-width: 980px) {
+    
+    form{
+        width: 650px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    form{
+        width: 550px;
+        margin: auto;
+    }
+}
